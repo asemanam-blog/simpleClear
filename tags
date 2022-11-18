@@ -1,0 +1,204 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/mimr9/projects/asemanam.blog.ir/blacktheme/simpleClear/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+#bComFormElem	style.css	/^#bComFormElem {$/;"	i
+#captchaInput	style.css	/^#captchaInput {$/;"	i
+(*blog_short_description*)	index.html	/^          <h2>(*blog_short_description*)<\/h2>$/;"	i
+(*blog_title*)	index.html	/^          <h1><a href="(*blog_link*)">(*blog_title*)<\/a><\/h1>$/;"	h
+(*page_title*)	index.html	/^          <h2 class="blackthemePostBoxTitle"><a href="(*page_link*)">(*page_title*)<\/a><\/h2>$/;"	i
+(*post_title*)	index.html	/^                    <\/h2>$/;"	i
+(*post_title*)	index.html	/^              <h2 class="blackthemePostBoxTitle"><a href="(*post_link*)">(*post_title*)<\/a><\/h/;"	i
+(*post_title*)	index.html	/^          <h2 class="blackthemePostBoxTitle"><a href="(*post_link*)">(*post_title*)<\/a><\/h2>$/;"	i
+*	style.css	/^*{$/;"	s
+.bComForm .sendbutton.hasCheckbox	style.css	/^.bComForm .sendbutton.hasCheckbox {$/;"	c
+.blackthemeAuthor	style.css	/^.blackthemeAuthor{$/;"	c
+.blackthemeClear	style.css	/^.blackthemeClear{$/;"	c
+.blackthemeCode	style.css	/^.blackthemeCode{$/;"	c
+.blackthemeComment	style.css	/^.blackthemeComment{$/;"	c
+.blackthemeContent	style.css	/^ .blackthemeContent,.blackthemeRow,.blackthemeSideBox{$/;"	c
+.blackthemeContent	style.css	/^ .blackthemeContent{$/;"	c
+.blackthemeContent	style.css	/^.blackthemeContent{$/;"	c
+.blackthemeContent p	style.css	/^.blackthemeContent p {$/;"	s
+.blackthemeHeader	style.css	/^ .blackthemeHeader{$/;"	c
+.blackthemeHeader	style.css	/^.blackthemeHeader{$/;"	c
+.blackthemeNext	style.css	/^.blackthemeNext{$/;"	c
+.blackthemeNext img	style.css	/^.blackthemeNext img{$/;"	s
+.blackthemePadding	style.css	/^ .blackthemePadding{$/;"	c
+.blackthemePadding	style.css	/^.blackthemePadding{$/;"	c
+.blackthemePagination	style.css	/^.blackthemePagination{$/;"	c
+.blackthemePagination a	style.css	/^.blackthemePagination a{$/;"	s
+.blackthemePostBox	style.css	/^.blackthemePostBox{$/;"	c
+.blackthemePostBoxTitle	style.css	/^.blackthemePostBoxTitle{$/;"	c
+.blackthemePostDetail	style.css	/^.blackthemePostDetail{$/;"	c
+.blackthemePostImage img	style.css	/^.blackthemePostImage img{$/;"	s
+.blackthemePostInfo	style.css	/^.blackthemePostInfo{$/;"	c
+.blackthemePostInfoRight	style.css	/^.blackthemePostInfoRight{$/;"	c
+.blackthemePostList a	style.css	/^.blackthemePostList a{$/;"	s
+.blackthemePostList a:last-of-type	style.css	/^.blackthemePostList a:last-of-type{$/;"	s
+.blackthemePostList h2	style.css	/^.blackthemePostList h2{$/;"	s
+.blackthemePostList span	style.css	/^.blackthemePostList span{$/;"	s
+.blackthemePostTag	style.css	/^.blackthemePostTag{$/;"	c
+.blackthemePostTag a	style.css	/^.blackthemePostTag a{$/;"	s
+.blackthemePostText	style.css	/^.blackthemePostText{$/;"	c
+.blackthemePostText img	style.css	/^.blackthemePostText img{$/;"	s
+.blackthemePrevoius	style.css	/^.blackthemePrevoius{$/;"	c
+.blackthemePrevoius img	style.css	/^.blackthemePrevoius img{$/;"	s
+.blackthemeRow	style.css	/^ .blackthemeContent,.blackthemeRow,.blackthemeSideBox{$/;"	c
+.blackthemeRow	style.css	/^ .blackthemeRow{$/;"	c
+.blackthemeRow	style.css	/^.blackthemeRow{$/;"	c
+.blackthemeSideBox	style.css	/^ .blackthemeContent,.blackthemeRow,.blackthemeSideBox{$/;"	c
+.blackthemeSideBox	style.css	/^ .blackthemeSideBox{$/;"	c
+.blackthemeSideBox	style.css	/^.blackthemeSideBox{$/;"	c
+.blackthemeSideBox h6	style.css	/^.blackthemeSideBox h6{$/;"	s
+.blackthemeSideBox h6 img	style.css	/^.blackthemeSideBox h6 img{$/;"	s
+.blackthemeSideBox ul	style.css	/^.blackthemeSideBox ul{$/;"	s
+.blackthemeSidebar	style.css	/^ .blackthemeSidebar{$/;"	c
+.blackthemeSidebar	style.css	/^.blackthemeSidebar{$/;"	c
+.comment-borders	style.css	/^.comment-borders {$/;"	c
+.comment-send	style.css	/^.comment-send {$/;"	c
+.comment-send-first	style.css	/^.comment-send-first {$/;"	c
+.comment-send-first-send	style.css	/^.comment-send-first-send {$/;"	c
+.comment-send-first-send a	style.css	/^.comment-send-first-send a {$/;"	s
+.comment-send-first-send img	style.css	/^.comment-send-first-send img {$/;"	s
+.comment-send-third	style.css	/^.comment-send-third {$/;"	c
+.fldcontent input[readonly]	style.css	/^.form-input[readonly], .inputFix input[readonly][type="text"], .fldcontent input[readonly][type=/;"	s
+.fldcontent input[type="text"]	style.css	/^.form-input, .inputFix input[type="text"], .fldcontent input[type="text"], .fldcontent textarea /;"	s
+.fldcontent select	style.css	/^.form-select, .fldcontent select {$/;"	s
+.fldcontent select:not([multiple] ):not([size] )	style.css	/^.form-select:not([multiple]):not([size]), .fldcontent select:not([multiple]):not([size]) {$/;"	s
+.fldcontent textarea	style.css	/^.fldcontent textarea {$/;"	s
+.fldcontent textarea	style.css	/^.form-input, .inputFix input[type="text"], .fldcontent input[type="text"], .fldcontent textarea /;"	s
+.fldcontent textarea[readonly]	style.css	/^.form-input[readonly], .inputFix input[readonly][type="text"], .fldcontent input[readonly][type=/;"	s
+.form-input	style.css	/^.form-input, .inputFix input[type="text"], .fldcontent input[type="text"], .fldcontent textarea /;"	c
+.form-input[readonly]	style.css	/^.form-input[readonly], .inputFix input[readonly][type="text"], .fldcontent input[readonly][type=/;"	c
+.form-select	style.css	/^.form-select, .fldcontent select {$/;"	c
+.form-select:not([multiple] ):not([size] )	style.css	/^.form-select:not([multiple]):not([size]), .fldcontent select:not([multiple]):not([size]) {$/;"	s
+.formField2 .fldcontent	style.css	/^.formField2 .fldcontent {$/;"	c
+.formField2 .fldcontent label	style.css	/^.formField2 .fldcontent label {$/;"	s
+.formField2 label	style.css	/^.formField2 label {$/;"	s
+.inputFix input[readonly]	style.css	/^.form-input[readonly], .inputFix input[readonly][type="text"], .fldcontent input[readonly][type=/;"	s
+.inputFix input[type="text"]	style.css	/^.form-input, .inputFix input[type="text"], .fldcontent input[type="text"], .fldcontent textarea /;"	s
+.my20	style.css	/^.my20 {$/;"	c
+.my20 > ul	style.css	/^.my20 > ul {$/;"	s
+.my20 > ul > li	style.css	/^.my20 > ul > li {$/;"	s
+.my20 > ul > li > a	style.css	/^.my20 > ul > li > a {$/;"	s
+.my20 li:hover	style.css	/^.my20 li:hover{$/;"	s
+.my20:hover > ul	style.css	/^.my20:hover > ul {$/;"	s
+.postComment	style.css	/^.postComment {$/;"	c
+.postComment span	style.css	/^.postComment span {$/;"	s
+.postImage	style.css	/^.postImage {$/;"	c
+.postImage img	style.css	/^.postImage img {$/;"	s
+.profile	style.css	/^.profile {$/;"	c
+.profile img	style.css	/^.profile img {$/;"	s
+.wrap	style.css	/^.wrap {$/;"	c
+:-moz-focusring	style.css	/^[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-mo/;"	s
+::-moz-focus-inner	style.css	/^[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,b/;"	s
+::-webkit-file-upload-button	style.css	/^::-webkit-file-upload-button{$/;"	s
+::-webkit-inner-spin-button	style.css	/^[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{$/;"	s
+::-webkit-outer-spin-button	style.css	/^[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{$/;"	s
+::-webkit-search-decoration	style.css	/^[type=search]::-webkit-search-decoration{$/;"	s
+a	style.css	/^a{$/;"	s
+a:hover	style.css	/^a:hover{$/;"	s
+abbr[title]	style.css	/^abbr[title]{$/;"	s
+b	style.css	/^b,strong{$/;"	s
+body	style.css	/^ body{$/;"	s
+body	style.css	/^body,button,input{$/;"	s
+body	style.css	/^body{$/;"	s
+button	style.css	/^[type=button],[type=reset],[type=submit],button{$/;"	s
+button	style.css	/^[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-mo/;"	s
+button	style.css	/^[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,b/;"	s
+button	style.css	/^body,button,input{$/;"	s
+button	style.css	/^button,input,optgroup,select,textarea{$/;"	s
+button	style.css	/^button,input{$/;"	s
+button	style.css	/^button,select{$/;"	s
+button:-moz-focusring	style.css	/^[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-mo/;"	s
+button::-moz-focus-inner	style.css	/^[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,b/;"	s
+checkbox	style.css	/^[type=checkbox],[type=radio],legend{$/;"	s
+code	style.css	/^code,kbd,pre,samp{$/;"	s
+comment-(*comment_id*)	index.html	/^                    <a name="comment-(*comment_id*)"><\/a>$/;"	a
+comments	index.html	/^          <a name="comments"><\/a>$/;"	a
+details	style.css	/^details,main{$/;"	s
+fieldset	style.css	/^fieldset{$/;"	s
+footer	style.css	/^footer{$/;"	s
+footer .wrap	style.css	/^ footer .wrap {$/;"	c
+footer .wrap	style.css	/^footer .wrap {$/;"	c
+footer .wrap span	style.css	/^footer .wrap span {$/;"	s
+h1	style.css	/^h1{$/;"	s
+header	style.css	/^header{$/;"	s
+header h1	style.css	/^header h1{$/;"	s
+header h2	style.css	/^header h2{$/;"	s
+hidden	style.css	/^[hidden],template{$/;"	s
+hr	style.css	/^hr{$/;"	s
+html	style.css	/^html{$/;"	s
+img	style.css	/^img{$/;"	s
+input	style.css	/^body,button,input{$/;"	s
+input	style.css	/^button,input,optgroup,select,textarea{$/;"	s
+input	style.css	/^button,input{$/;"	s
+kbd	style.css	/^code,kbd,pre,samp{$/;"	s
+legend	style.css	/^[type=checkbox],[type=radio],legend{$/;"	s
+legend	style.css	/^legend{$/;"	s
+main	style.css	/^details,main{$/;"	s
+nav	style.css	/^nav{$/;"	s
+nav ul	style.css	/^nav ul{$/;"	s
+nav ul li	style.css	/^nav ul li{$/;"	s
+ns00a6a7fb0101	icons/Latest.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" width="24" height="24" viewBox="0 0 24 24" style="fi/;"	n	uri:http://www.w3.org/2000/svg
+ns07987acb0101	icons/iHeart.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" width="24" height="24" viewBox="0 0 24 24" style="fi/;"	n	uri:http://www.w3.org/2000/svg
+ns383b2a340101	icons/categories.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" width="24" height="24" viewBox="0 0 24 24" style="fi/;"	n	uri:http://www.w3.org/2000/svg
+ns491e3be60101	icons/ads.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" width="24" height="24" viewBox="0 0 24 24" style="fi/;"	n	uri:http://www.w3.org/2000/svg
+ns4cb346810101	icons/author.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" width="24" height="24" viewBox="0 0 24 24" style="fi/;"	n	uri:http://www.w3.org/2000/svg
+ns82359ce80101	icons/prevPage.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" xmlns:xlink="http:\/\/www.w3.org\/1999\/xlink" aria-/;"	n	uri:http://www.w3.org/2000/svg
+ns9c579f830101	icons/archives.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" width="24" height="24" viewBox="0 0 24 24" style="fi/;"	n	uri:http://www.w3.org/2000/svg
+nsb57f16cf0101	icons/links.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" width="24" height="24" viewBox="0 0 24 24" style="fi/;"	n	uri:http://www.w3.org/2000/svg
+nsbe69914a0101	icons/nextPage.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" xmlns:xlink="http:\/\/www.w3.org\/1999\/xlink" aria-/;"	n	uri:http://www.w3.org/2000/svg
+nsccf50ff30101	icons/continue.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" xmlns:xlink="http:\/\/www.w3.org\/1999\/xlink" aria-/;"	n	uri:http://www.w3.org/2000/svg
+nsde39bdb30101	icons/dlinks.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" width="24" height="24" viewBox="0 0 24 24" style="fi/;"	n	uri:http://www.w3.org/2000/svg
+nseba2ec130101	icons/biography.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" width="24" height="24" viewBox="0 0 24 24" style="fi/;"	n	uri:http://www.w3.org/2000/svg
+nsf796a1bd0101	icons/tags.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" width="24" height="24" viewBox="0 0 24 24" style="fi/;"	n	uri:http://www.w3.org/2000/svg
+number	style.css	/^[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{$/;"	s
+optgroup	style.css	/^button,input,optgroup,select,textarea{$/;"	s
+p	style.css	/^p {$/;"	s
+pre	style.css	/^code,kbd,pre,samp{$/;"	s
+progress	style.css	/^progress{$/;"	s
+radio	style.css	/^[type=checkbox],[type=radio],legend{$/;"	s
+reset	style.css	/^[type=button],[type=reset],[type=submit],button{$/;"	s
+reset	style.css	/^[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-mo/;"	s
+reset	style.css	/^[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,b/;"	s
+samp	style.css	/^code,kbd,pre,samp{$/;"	s
+search	style.css	/^[type=search]::-webkit-search-decoration{$/;"	s
+search	style.css	/^[type=search]{$/;"	s
+select	style.css	/^button,input,optgroup,select,textarea{$/;"	s
+select	style.css	/^button,select{$/;"	s
+send_comment	index.html	/^          <a name="send_comment"><\/a>$/;"	a
+simpleClear	README.md	/^# simpleClear$/;"	c
+small	style.css	/^small{$/;"	s
+strong	style.css	/^b,strong{$/;"	s
+sub	style.css	/^sub,sup{$/;"	s
+sub	style.css	/^sub{$/;"	s
+submit	style.css	/^[type=button],[type=reset],[type=submit],button{$/;"	s
+submit	style.css	/^[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-mo/;"	s
+submit	style.css	/^[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,b/;"	s
+summary	style.css	/^summary{$/;"	s
+sup	style.css	/^sub,sup{$/;"	s
+sup	style.css	/^sup{$/;"	s
+svg	style.css	/^svg{$/;"	s
+template	style.css	/^[hidden],template{$/;"	s
+textarea	style.css	/^button,input,optgroup,select,textarea{$/;"	s
+textarea	style.css	/^textarea{$/;"	s
+type	style.css	/^.form-input[readonly], .inputFix input[readonly][type="text"], .fldcontent input[readonly][type=/;"	s
+type	style.css	/^[type=button],[type=reset],[type=submit],button{$/;"	s
+type	style.css	/^[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-mo/;"	s
+type	style.css	/^[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,b/;"	s
+type	style.css	/^[type=checkbox],[type=radio],legend{$/;"	s
+type	style.css	/^[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{$/;"	s
+type	style.css	/^[type=search]::-webkit-search-decoration{$/;"	s
+type	style.css	/^[type=search]{$/;"	s
+xlink	icons/continue.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" xmlns:xlink="http:\/\/www.w3.org\/1999\/xlink" aria-/;"	n	uri:http://www.w3.org/1999/xlink
+xlink	icons/nextPage.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" xmlns:xlink="http:\/\/www.w3.org\/1999\/xlink" aria-/;"	n	uri:http://www.w3.org/1999/xlink
+xlink	icons/prevPage.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" xmlns:xlink="http:\/\/www.w3.org\/1999\/xlink" aria-/;"	n	uri:http://www.w3.org/1999/xlink
