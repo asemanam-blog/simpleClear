@@ -1,0 +1,750 @@
+﻿<!DOCTYPE html>
+<html>
+<!-- theme designed by http://blacktheme.ir  | Weblog Themes & code for Weblog -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title><-BlogAndPostTitle-></title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="content-language" content="fa">
+<meta name="description" content="<-BlogMetaDescription->">
+<meta name="generator" content="blogfa.com">
+<meta property="og:title" content="<-AutoPageTitle->">
+<meta property="og:site_name" content="<-BlogTitle->">
+<meta property="og:description" content="<-BlogMetaDescription->">
+<meta name="twitter:title" content="<-AutoPageTitle->">
+<meta name="twitter:description" content="<-BlogMetaDescription->">
+<link rel="alternate" type="application/rss+xml" title="<-BlogTitle->" href="<-BlogXmlLink->" />
+<link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/gh/rastikerdar/sahel-font@v3.4.0/dist/font-face.css">
+<script src="http://theme.blogfa.com/public/theme.1.2.js"  type="text/javascript" ></script>
+<script type="text/javascript">
+  try {
+    cmt_caption[0]="Comments";
+    cmt_caption[1]="Write a comment";
+    cmt_caption[2]="One comment";
+    cmt_caption[3]="Comment";
+    cmt_blogid="<-BlogId->";
+  }
+  catch(e) {}
+</script>
+
+
+<style>
+p {
+	margin:0;
+	margin-block-end:0;
+	margin-block-start:0;
+}
+html{
+ -webkit-text-size-adjust:100%
+}
+body{
+ margin:0
+}
+details,main{
+ display:block
+}
+h1{
+ font-size:2em;
+ margin:.67em 0
+}
+hr{
+ box-sizing:content-box;
+ height:0;
+ overflow:visible
+}
+code,kbd,pre,samp{
+ font-family:monospace,monospace;
+ font-size:1em
+}
+a{
+ background-color:transparent
+}
+abbr[title]{
+ border-bottom:none;
+ text-decoration:underline dotted
+}
+b,strong{
+ font-weight:bolder
+}
+small{
+ font-size:80%
+}
+sub,sup{
+ font-size:75%;
+ line-height:0;
+ position:relative;
+ vertical-align:baseline
+}
+sub{
+ bottom:-.25em
+}
+sup{
+ top:-.5em
+}
+img{
+ border-style:none
+}
+button,input,optgroup,select,textarea{
+ font-family:inherit;
+ font-size:100%;
+ line-height:1.15;
+ margin:0
+}
+button,input{
+ overflow:visible
+}
+button,select{
+ text-transform:none
+}
+[type=button],[type=reset],[type=submit],button{
+ -webkit-appearance:button
+}
+[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{
+ border-style:none;
+ padding:0
+}
+[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{
+ outline:1px dotted ButtonText
+}
+fieldset{
+ padding:.35em .75em .625em
+}
+legend{
+ color:inherit;
+ display:table;
+ max-width:100%;
+ white-space:normal
+}
+progress{
+ vertical-align:baseline
+}
+textarea{
+ overflow:auto
+}
+[type=checkbox],[type=radio],legend{
+ box-sizing:border-box;
+ padding:0
+}
+[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{
+ height:auto
+}
+[type=search]{
+ -webkit-appearance:textfield;
+ outline-offset:-2px
+}
+[type=search]::-webkit-search-decoration{
+ -webkit-appearance:none
+}
+::-webkit-file-upload-button{
+ -webkit-appearance:button;
+ font:inherit
+}
+summary{
+ display:list-item
+}
+[hidden],template{
+ display:none
+}
+*{
+ box-sizing:border-box
+}
+img{
+ max-width:100%
+}
+body,button,input{
+ font-family:'sahel',sans-serif,tahoma
+}
+body{
+ line-height:1.7;
+ font-size:10pt;
+ background-color:#e8eaee;
+ direction:rtl;
+ color:#292a2f
+}
+a{
+ text-decoration:none;
+ color:inherit
+}
+a:hover{
+ color:#4c6fff!important
+}
+svg{
+ display:block;
+ width:24px;
+ height:24px
+}
+.blackthemeRow{
+ width:100%;
+ max-width:992px;
+ display:flex;
+ flex-direction:row;
+ margin:40px auto;
+ padding:20px
+}
+.blackthemeContent{
+ width:100%;
+ margin-left:50px;
+ padding:20px;
+ border-radius:15px;
+ -webkit-border-radius:15px;
+ -moz-border-radius:15px;
+ -ms-border-radius:15px;
+ -o-border-radius:15px;
+ box-shadow:0 15px 15px #d8dadf;
+ background-image:linear-gradient(to bottom,#fff,#f4f6f9);
+ background-color:#f4f6f9
+}
+.blackthemeSidebar{
+ min-width:300px
+}
+.blackthemeHeader{
+ background-size:cover;
+ background-position:bottom center;
+ background-repeat:no-repeat;
+ height:300px;
+ border-radius:15px;
+ -webkit-border-radius:15px;
+ -moz-border-radius:15px;
+ -ms-border-radius:15px;
+ -o-border-radius:15px;
+ background-color:#f1f4f8
+}
+.blackthemePadding{
+ margin:-60px 20px 0 20px;
+ padding:20px;
+ background-color:#fff;
+ border-radius:15px;
+ -webkit-border-radius:15px;
+ -moz-border-radius:15px;
+ -ms-border-radius:15px;
+ -o-border-radius:15px
+}
+header{
+ margin-bottom:40px;
+ text-align:center
+}
+header h1{
+ margin:0;
+ padding:0;
+ font-size:1.8em
+}
+header h2{
+ padding:0;
+ margin:10px 0 0 0;
+ font-size:1.2em;
+ font-weight:400
+}
+nav{
+ background-color:#f1f3f7;
+ border-radius:15px;
+ -webkit-border-radius:15px;
+ -moz-border-radius:15px;
+ -ms-border-radius:15px;
+ -o-border-radius:15px;
+ padding:20px;
+ margin-top:30px;
+ font-weight:700
+}
+nav ul{
+ list-style-type:none;
+ list-style:none;
+ padding:0;
+ margin:0;
+ display:flex;
+ flex-direction:row;
+ flex-wrap:wrap;
+ justify-content:center
+}
+nav ul li{
+ margin-left:20px
+}
+.blackthemePostBox{
+ margin-bottom:40px
+}
+.blackthemePostBoxTitle{
+ font-size:1.4em
+}
+.blackthemePostInfo{
+ display:flex;
+ flex-direction:row;
+ align-items:center;
+ justify-content:space-between;
+ flex-wrap:wrap;
+ margin-bottom:5px;
+ color:#708696
+}
+.blackthemePostInfoRight{
+ display:flex;
+ flex-direction:row;
+ align-items:center;
+ flex-wrap:wrap
+}
+.blackthemePostImage img{
+ width:50px;
+ height:50px;
+ border-radius:50%;
+ -webkit-border-radius:50%;
+ -moz-border-radius:50%;
+ -ms-border-radius:50%;
+ -o-border-radius:50%;
+ margin-left:5px;
+ display:block
+}
+.blackthemePostDetail{
+ display:flex;
+ flex-direction:column;
+ align-items:flex-start;
+ font-size:8.5pt
+}
+.blackthemeAuthor{
+ font-weight:700
+}
+.blackthemePostBoxTitle{
+ padding:0;
+ margin:0 0 5px 0
+}
+.blackthemePostText img{
+ height:auto;
+}
+.blackthemePostText{
+ padding:20px;
+ background-color:#f1f3f7;
+ border-radius:15px;
+ -webkit-border-radius:15px;
+ -moz-border-radius:15px;
+ -ms-border-radius:15px;
+ -o-border-radius:15px
+}
+.blackthemePostTag{
+ display:flex;
+ flex-direction:row;
+ font-size:8.5pt;
+ flex-wrap:wrap
+}
+.blackthemePostTag a{
+ background-color:#f1f4f8;
+ border-radius:5px;
+ -webkit-border-radius:5px;
+ -moz-border-radius:5px;
+ -ms-border-radius:5px;
+ -o-border-radius:5px;
+ margin-left:10px;
+ margin-bottom:10px;
+ padding:5px 10px;
+ display:block;
+ color:#708696
+}
+.blackthemeComment{
+ text-align:left;
+ color:#8195a2;
+ font-weight:700
+}
+.blackthemePagination{
+ background-color:#f1f3f7;
+ padding:20px;
+ border-radius:15px;
+ margin-bottom:40px;
+ -webkit-border-radius:15px;
+ -moz-border-radius:15px;
+ -ms-border-radius:15px;
+ -o-border-radius:15px
+}
+.blackthemePagination a{
+ display:flex;
+ flex-direction:row;
+ align-items:center
+}
+.blackthemePrevoius{
+ float:right
+}
+.blackthemePrevoius svg{
+ margin-left:5px
+}
+.blackthemeNext svg{
+ margin-right:5px
+}
+.blackthemeNext{
+ float:left
+}
+.blackthemeClear{
+ clear:both
+}
+.blackthemeCode{
+ text-align:center
+}
+.blackthemeSideBox{
+ padding:20px 20px 30px 20px;
+ border-radius:15px;
+ -webkit-border-radius:15px;
+ -moz-border-radius:15px;
+ -ms-border-radius:15px;
+ -o-border-radius:15px;
+ box-shadow:0 15px 15px #d8dadf;
+ background-image:linear-gradient(to bottom,#fff,#f4f6f9);
+ background-color:#f4f6f9;
+ margin-bottom:50px
+}
+.blackthemeSideBox h6{
+ display:flex;
+ flex-direction:row-reverse;
+ justify-content:flex-end;
+ align-items:center;
+ background-color:#f1f3f7;
+ border-radius:5px;
+ -webkit-border-radius:5px;
+ -moz-border-radius:5px;
+ -ms-border-radius:5px;
+ -o-border-radius:5px;
+ font-size:1em;
+ margin:0 0 20px 0;
+ padding:0
+}
+.blackthemeSideBox h6 svg{
+ margin-left:10px;
+ background-color:#4c6fff;
+ color:#fff;
+ height:40px;
+ width:40px;
+ padding:10px;
+ border-radius:5px;
+ -webkit-border-radius:5px;
+ -moz-border-radius:5px;
+ -ms-border-radius:5px;
+ -o-border-radius:5px
+}
+.blackthemeSideBox ul{
+ list-style-type:none;
+ padding:0;
+ margin:0
+}
+.blackthemePostList h2{
+ font-size:1.1em;
+ padding:0;
+ margin:0
+}
+.blackthemePostList a{
+ display:block;
+ margin-bottom:10px
+}
+.blackthemePostList a:last-of-type{
+ margin-bottom:0
+}
+footer{
+ height:0;
+ overflow:hidden;
+ opacity:0;
+ pointer-events:none
+}
+
+.my20 {
+	position: relative;
+    padding-bottom: 4px;
+		cursor: pointer;
+}
+
+/* .my20items {
+	position: absolute;
+	background-color: red;
+	align-items: center;
+	width: 100px;
+}
+
+.my20item {
+background-color: blue;
+margin: 2px;
+display: block;
+}
+
+.my20item a {
+	display: block !important;
+	padding: 3px;
+} */
+
+.my20 > ul {
+		display: none;
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
+    background-color: #e5e6e9;
+		border-radius: 10px;
+		position: absolute;
+}
+
+.my20:hover > ul {
+	display: flex;
+}
+
+.my20 > ul > li {
+	list-style: none;
+    margin: 1px 5px;
+    position: relative;
+    width: 110px;
+}
+
+.my20 > ul > li > a {
+	display: inline-block;
+    color: #fff;
+    padding: 12px 14px;
+    text-decoration: none;
+		color: black;
+}
+
+.my20 li:hover{
+	background-color: white;
+	border-radius: 10px;
+}
+
+@media screen and (max-width:992px){
+ .blackthemeRow{
+		 flex-direction:column;
+		 margin:0 auto
+ }
+ .blackthemeContent{
+		 margin-bottom:20px;
+		 margin-left:0
+ }
+ .blackthemeSidebar{
+		 min-width:100%;
+ }
+ .blackthemeSideBox{
+		 margin-bottom: 20px;
+ }
+}
+@media screen and (max-width:576px){
+ body{
+		 font-size:9pt
+ }
+ .blackthemeContent,.blackthemeRow,.blackthemeSideBox{
+		 padding:10px
+ }
+ .blackthemePadding{
+		 margin:20px 0 0 0;
+		 padding:20px 0;
+		 background-color: transparent;
+ }
+ .blackthemeHeader{
+		 height:200px
+ }
+}
+@media screen and (max-width:350px){
+ .blackthemeHeader{
+		 height:150px
+ }
+}
+.blackthemePostList span{
+ color:#8195a2;
+}
+</style>
+</head>
+<body>
+<div class="blackthemeRow">
+  
+  <div class="blackthemeContent">
+    <!-- تصویر هدر -->
+    <div class="blackthemeHeader" style="background-image: url('https://s6.uupload.ir/files/42_9mox.jpg');"></div>
+    <div class="blackthemePadding">
+      <header>
+        <div class="blackthemeInfo">
+          <h1><a href="<-BlogUrl->"><-BlogTitle-></a></h1>
+          <h2><-BlogDescription-></h2>
+        </div>
+        <nav>
+            <ul>
+              <li><a href="/">Home</a></li>
+              <BlogProfileLinkBlock><li><a href="<-BlogProfileLink->">Profile</a></li></BlogProfileLinkBlock>
+              <BlogEmailBlock><li><a href="mailto:<-BlogEmail->">E-mail</a></li></BlogEmailBlock>
+              <li><a href="<-BlogArchiveLink->">Archive</a></li>
+              <li><a href="/posts/">Headline</a></li>
+							<li class="my20">My Links
+								<ul class="my20items">
+									<li class="my20item"><a href="
+                                                                               https://www.youtube.com/channel/UC84cWtFiokjqNTI9U38n-Mw"> Youtube </a></li>
+									<li class="my20item"><a href="https://www.aparat.com/Cafe_kalimba" rel="nofollow" > Aparat </a></li>
+									<li class="my20item"><a href="https://t.me/albatrostext" rel="nofollow" > Telegram </a></li>
+                                                                        <li class="my20item"><a href="https://www.instagram.com/albatrostext" rel="nofollow" > Instagram </a></li>
+								</ul>
+							</li>              
+            </ul>
+        </nav>
+      </header>
+      <BLOGFA>
+        <article class="blackthemePostBox">
+          <h2 class="blackthemePostBoxTitle"><a href="<-PostLink->"><-PostTitle-></a></h2>
+          <div class="blackthemePostInfo">
+            <div class="blackthemePostInfoRight">
+              <BlogPhoto>
+                <div class="blackthemePostImage">
+                  <img src="<-BlogPhotoLink->">
+                </div>
+              </BlogPhoto>
+
+              <div class="blackthemePostDetail">
+                <span class="blackthemeAuthor"><-PostAuthor-> </span>
+                <span class="blackthemeDate"> <-PostDate->، <-PostTime-></span>
+              </div>
+            </div>
+            <BlogExtendedPost>
+              <div class="blackthemePostInfoLeft">
+                <a href="<-PostLink->" title="Read more"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><g fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M3 14a1 1 0 0 1 1-1h12a3 3 0 0 0 3-3V6a1 1 0 1 1 2 0v4a5 5 0 0 1-5 5H4a1 1 0 0 1-1-1z" fill="currentColor"/><path fill-rule="evenodd" clip-rule="evenodd" d="M3.293 14.707a1 1 0 0 1 0-1.414l4-4a1 1 0 0 1 1.414 1.414L5.414 14l3.293 3.293a1 1 0 1 1-1.414 1.414l-4-4z" fill="currentColor"/></g></svg></a>
+              </div>
+            </BlogExtendedPost>
+
+          </div>
+          <div class="blackthemePostText">
+            <-PostContent->
+            <div class="blackthemeClear"></div>
+            <BlogPostTagsBlock>
+              <div class="blackthemePostTag">
+                      <BlogPostTags separator=" "><a href="<-TagLink->"><-TagName-></a></BlogPostTags>
+              </div>
+            </BlogPostTagsBlock> 
+            <div class="blackthemePostFooter">
+              <BlogComment>
+                <div class="blackthemeComment">
+                  <span dir="rtl" comment-for="<-PostId->"></span>
+                </div>
+              </BlogComment>
+            </div>
+          </div>
+
+
+        </article>
+      </BLOGFA>
+      <BlogNextAndPreviousBlock>
+        <div class="blackthemePagination">
+        <BlogPreviousPageBlock>
+        <a href="<-BlogPreviousPageLink->" class="blackthemePrevoius"  ><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><g fill="none"><path d="M12.293 5.293a1 1 0 0 1 1.414 0l6 6a1 1 0 0 1 0 1.414l-6 6a1 1 0 0 1-1.414-1.414L16.586 13H5a1 1 0 1 1 0-2h11.586l-4.293-4.293a1 1 0 0 1 0-1.414z" fill="currentColor"/></g></svg>Previous page</a>
+        </BlogPreviousPageBlock>
+        <BlogNextPageBlock>
+        <a href="<-BlogNextPageLink->" class="blackthemeNext" >Next page<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><g fill="none"><path d="M11.707 5.293a1 1 0 0 1 0 1.414L7.414 11H19a1 1 0 1 1 0 2H7.414l4.293 4.293a1 1 0 0 1-1.414 1.414l-6-6a1 1 0 0 1 0-1.414l6-6a1 1 0 0 1 1.414 0z" fill="currentColor"/></g></svg></a>
+        </BlogNextPageBlock>
+         <div class="blackthemeClear"></div>
+        </div>
+      </BlogNextAndPreviousBlock>
+      <div class="blackthemeCode">
+        <-BlogCustomHtml->
+        <div class="blackthemeClear"></div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="blackthemeSidebar">
+    <BlogProfile>
+      <div class="blackthemeSideBox">
+        <h6>Biography<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><g fill="none"><path d="M12 4a8 8 0 1 0 0 16a8 8 0 0 0 0-16zM2 12C2 6.477 6.477 2 12 2s10 4.477 10 10s-4.477 10-10 10S2 17.523 2 12z" fill="currentColor"/><path d="M12 10a1 1 0 0 1 1 1v6a1 1 0 1 1-2 0v-6a1 1 0 0 1 1-1zm1.5-2.5a1.5 1.5 0 1 1-3 0a1.5 1.5 0 0 1 3 0z" fill="currentColor"/></g></svg></h6>
+        <-BlogAbout->
+      </div>
+    </BlogProfile>
+          
+  <BlogPreviousItemsBlock>
+      <div class="blackthemeSideBox">
+       
+  
+
+<h6>Latest posts<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><g fill="none"><path d="M12 2.5a1 1 0 0 1 .894.553l2.58 5.158l5.67.824a1 1 0 0 1 .554 1.706l-4.127 4.024l.928 5.674a1 1 0 0 1-1.455 1.044L12 18.807l-5.044 2.676a1 1 0 0 1-1.455-1.044l.928-5.674l-4.127-4.024a1 1 0 0 1 .554-1.706l5.67-.824l2.58-5.158A1 1 0 0 1 12 2.5zm0 3.236l-1.918 3.836a1 1 0 0 1-.75.543l-4.184.608l3.05 2.973a1 1 0 0 1 .289.878L7.8 18.771l3.731-1.98a1 1 0 0 1 .938 0l3.731 1.98l-.687-4.197a1 1 0 0 1 .289-.877l3.05-2.974l-4.183-.608a1 1 0 0 1-.75-.543L12 5.736z" fill="currentColor"/></g></svg></h6>
+
+
+
+        <ul class="blackthemePostList">
+          <BlogPreviousItems items="15">
+  
+            <li>
+              <a href="<-PostLink->" title="<-PostTime->">
+              <h2>
+                <-PostTitle->
+              </h2>
+              <span><-PostDate-></span>
+            </a>
+            </li>
+          </BlogPreviousItems>
+        </ul>
+      </div>
+    </BlogPreviousItemsBlock>
+  
+    <BlogCategoriesBlock>
+      <div class="blackthemeSideBox">
+        <h6>Latest posts<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><g fill="none"><path d="M2 6a2 2 0 0 1 2-2h5a1 1 0 0 1 .707.293L11.414 6H20a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6zm6.586 0H4v12h16V8h-9a1 1 0 0 1-.707-.293L8.586 6z" fill="currentColor"/></g></svg></h6>
+        <ul>
+          <BlogCategories>
+            <li><a href="<-CategoryLink->">
+                <-CategoryName->
+              </a></li>
+          </BlogCategories>
+        </ul>
+      </div>
+    </BlogCategoriesBlock>
+  
+  
+    <BlogTagsBlock>
+      <div class="blackthemeSideBox">
+        <h6>Tags<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><g fill="none"><path d="M2 3a1 1 0 0 1 1-1h8a1 1 0 0 1 .707.293l10 10a1 1 0 0 1 0 1.414l-8 8a1 1 0 0 1-1.414 0l-10-10A1 1 0 0 1 2 11V3zm2 1v6.586l9 9L19.586 13l-9-9H4z" fill="currentColor"/><path d="M9 7.5a1.5 1.5 0 1 1-3 0a1.5 1.5 0 0 1 3 0z" fill="currentColor"/></g></svg></h6>
+        <ul>
+          <BlogTags>
+            <li><a href="<-TagLink->">
+                <-TagName->
+              </a></li>
+          </BlogTags>
+        </ul>
+      </div>
+    </BlogTagsBlock>
+  
+    <BlogArchiveBlock>
+      <div class="blackthemeSideBox">
+        <h6>Previous posts<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><g fill="none"><path d="M9 2a1 1 0 0 1 1 1v1h4V3a1 1 0 1 1 2 0v1h3a2 2 0 0 1 2 2v13a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h3V3a1 1 0 0 1 1-1zM8 6H5v3h14V6h-3v1a1 1 0 1 1-2 0V6h-4v1a1 1 0 0 1-2 0V6zm11 5H5v8h14v-8z" fill="currentColor"/></g></svg></h6>
+        <ul>
+          <BlogArchive>
+            <li><a href="<-ArchiveLink->">
+                <-ArchiveTitle->
+              </a></li>
+          </BlogArchive>
+        </ul>
+      </div>
+    </BlogArchiveBlock>
+    <BlogAuthorsBlock>
+      <div class="blackthemeSideBox">
+        <h6>Writers<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><g fill="none"><path d="M10 4a4 4 0 1 0 0 8a4 4 0 0 0 0-8zM4 8a6 6 0 1 1 12 0A6 6 0 0 1 4 8zm12.828-4.243a1 1 0 0 1 1.415 0a6 6 0 0 1 0 8.486a1 1 0 1 1-1.415-1.415a4 4 0 0 0 0-5.656a1 1 0 0 1 0-1.415zm.702 13a1 1 0 0 1 1.212-.727c1.328.332 2.169 1.18 2.652 2.148c.468.935.606 1.98.606 2.822a1 1 0 1 1-2 0c0-.657-.112-1.363-.394-1.928c-.267-.533-.677-.934-1.349-1.102a1 1 0 0 1-.727-1.212zM6.5 18C5.24 18 4 19.213 4 21a1 1 0 1 1-2 0c0-2.632 1.893-5 4.5-5h7c2.607 0 4.5 2.368 4.5 5a1 1 0 1 1-2 0c0-1.787-1.24-3-2.5-3h-7z" fill="currentColor"/></g></svg></h6>
+        <ul>
+          <BlogAuthors>
+            <li><a href="<-AuthorLink->">
+                <-AuthorName->
+              </a></li>
+          </BlogAuthors>
+        </ul>
+      </div>
+    </BlogAuthorsBlock>
+  
+    <BlogLinkDumpBlock>
+      <div class="blackthemeSideBox">
+        <h6>Daily links<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><g fill="none"><path d="M16.2 6a1 1 0 0 1 1-1c.637 0 1.262.128 1.871.372c.663.265 1.173.658 1.636 1.12c.463.464.856.974 1.121 1.637c.244.609.372 1.234.372 1.871s-.128 1.262-.372 1.871c-.261.655-.648 1.16-1.104 1.619l-.984 1.083a.967.967 0 0 1-.033.034l-3.2 3.2c-.463.463-.973.856-1.636 1.122A5.012 5.012 0 0 1 13 19.3a5.012 5.012 0 0 1-1.871-.372c-.663-.265-1.173-.658-1.636-1.12c-.463-.464-.856-.974-1.121-1.637A5.145 5.145 0 0 1 8 14.2c0-.637.128-1.262.372-1.871c.265-.663.658-1.173 1.12-1.636l1.1-1.1a1 1 0 1 1 1.415 1.414l-1.1 1.1c-.337.337-.544.627-.678.964A3.014 3.014 0 0 0 10 14.2c0 .476.077.85.229 1.229c.134.337.341.627.678.964c.337.337.627.544.964.678c.391.157.766.229 1.129.229s.738-.072 1.129-.229c.337-.134.627-.341.964-.678l3.183-3.183l.984-1.083a.967.967 0 0 1 .033-.034c.337-.337.544-.627.678-.964c.157-.391.229-.766.229-1.129s-.072-.738-.229-1.129c-.134-.337-.341-.627-.678-.964c-.337-.337-.627-.544-.964-.679A3.014 3.014 0 0 0 17.2 7a1 1 0 0 1-1-1zm-4.9 1.5c-.363 0-.738.072-1.129.228c-.337.135-.627.342-.964.68L5.924 11.69l-.984 1.083l-.033.034c-.337.337-.544.627-.679.964A3.014 3.014 0 0 0 4 14.9c0 .363.072.738.228 1.129c.135.337.342.627.68.964c.336.337.626.544.963.679c.391.156.766.228 1.129.228a1 1 0 1 1 0 2a5.011 5.011 0 0 1-1.871-.371c-.663-.266-1.173-.659-1.636-1.122c-.463-.463-.856-.973-1.121-1.636A5.012 5.012 0 0 1 2 14.9c0-.637.128-1.262.372-1.871c.261-.655.648-1.16 1.104-1.619l.984-1.083l.033-.034l3.3-3.3c.463-.463.973-.856 1.636-1.121A5.012 5.012 0 0 1 11.3 5.5c.637 0 1.262.128 1.871.372c.663.265 1.173.658 1.636 1.12c.463.464.856.974 1.121 1.637c.244.609.372 1.234.372 1.871s-.128 1.262-.372 1.871c-.262.655-.649 1.162-1.105 1.62l-1.086 1.185a1 1 0 0 1-1.474-1.352l1.1-1.2l.03-.031c.337-.337.544-.627.678-.964c.157-.391.229-.766.229-1.129s-.072-.738-.229-1.129c-.134-.337-.341-.627-.678-.964c-.337-.337-.627-.544-.964-.679A3.014 3.014 0 0 0 11.3 7.5z" fill="currentColor"/></g></svg></h6>
+        <ul>
+          <BlogLinkDump>
+            <li><a href="<-LinkUrl->" target="_blank" title="<-LinkDescription->">
+                <-LinkTitle->
+              </a></li>
+          </BlogLinkDump>
+          <li><a href="/links" onclick="return openlinks();">Daily links archive</a></li>
+        </ul>
+      </div>
+    </BlogLinkDumpBlock>
+  
+    <BlogLinksBlock>
+      <div class="blackthemeSideBox">
+        <h6>Friends<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><g fill="none"><path d="M12 4.528a6 6 0 0 0-8.243 8.715l6.829 6.828a2 2 0 0 0 2.828 0l6.829-6.828A6 6 0 0 0 12 4.528zm-1.172 1.644l.465.464a1 1 0 0 0 1.414 0l.465-.464a4 4 0 1 1 5.656 5.656L12 18.657l-6.828-6.829a4 4 0 0 1 5.656-5.656z" fill="currentColor"/></g></svg></h6>
+        <ul>
+          <BlogLinks>
+            <li><a href="<-LinkUrl->" target="_blank">
+                <-LinkTitle->
+              </a></li>
+          </BlogLinks>
+        </ul>
+      </div>
+    </BlogLinksBlock>
+  </div>
+
+</div>
+<footer>
+    قالب طراحی شده توسط <h2><a href="http://blacktheme.ir/" title="قالب وبلاگ و کد وبلاگ" rel="nofollow" >بلک تم</a></h2>
+</footer>
+  <!-- theme designed by http://blacktheme.ir  | Weblog Themes & code for Weblog -->
+</body>
+</html>

@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html>
+<!-- theme designed by http://blacktheme.ir  | Weblog Themes & code for Weblog -->
+<!-- Theme translated to bayan blog by https://asemanam.blog.ir -->
+<head><!--{{{-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f1f3f7" />
+<!--bayan-tags--><!--{{{-->
+<head:meta></head:meta>
+<head:style></head:style>
+<head:script></head:script>
+<!--bayan-tags--><!--}}}-->
+<link href="http://bayanbox.ir/download/5288479852257857761/favicon.ico" rel="shortcut icon">
+<link rel="alternate" type="application/rss+xml" title="(*blog_title*)" href="(*rss_link*)" />
+<link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/gh/rastikerdar/sahel-font@v3.4.0/dist/font-face.css">
+</head><!--}}}-->
+<body>
+<div class="blackthemeRow">
+  <div class="blackthemeContent">
+    <!-- Header's Picture --><!--{{{-->
+    <div class="blackthemeHeader" style="background-image: url('https://bayanbox.ir/download/4536850830750676036/42-9mox-2.jpg');"></div>
+    <!-- Header's Picture --><!--}}}-->
+    <div class="blackthemePadding">
+      <header><!--{{{-->
+        <div class="blackthemeInfo">
+          <h1><a href="(*blog_link*)">(*blog_title*)</a></h1>
+          <h2>(*blog_short_description*)</h2>
+        </div>
+        <!--navbar--><!--{{{-->
+        <nav>
+            <ul>
+              <li><a href="/">Home</a></li>
+              <li><a href="/archive">Archive</a></li>
+							<li class="my20">My Links
+								<ul class="my20items">
+									<li class="my20item"><a href="https://www.youtube.com/channel/channelID"> Youtube </a></li>
+									<li class="my20item"><a href="https://www.aparat.com/userName" rel="nofollow" > Aparat </a></li>
+									<li class="my20item"><a href="https://t.me/channelID" rel="nofollow" > Telegram </a></li>
+                  <li class="my20item"><a href="https://www.instagram.com/pageID" rel="nofollow" > Instagram </a></li>
+								</ul>
+							</li>              
+            </ul>
+        </nav>
+        <!--navbar--><!--}}}-->
+      </header><!--}}}-->
+      <!--mainBar--><!--{{{-->
+        <!--frontPage--><!--{{{-->
+          <box:post_list>
+            <view:post_list>
+              <article class="blackthemePostBox">
+              <h2 class="blackthemePostBoxTitle"><a href="(*post_link*)">(*post_title*)</a></h2>
+              <div class="blackthemePostInfo">
+                <div class="blackthemePostInfoRight"><!--{{{-->
+                    <div class="blackthemePostImage">
+                      <img src="(*post_author_avatar*)">
+                    </div>
+                  <div class="blackthemePostDetail">
+                    <span class="blackthemeAuthor">(*post_author*)</span>
+                    <span class="blackthemeDate"> (*post_date format="%Y/%n/%e"*)، (*post_date format="%H:%M"*)</span>
+                  </div>
+                </div><!--}}}-->
+                  <div class="blackthemePostInfoLeft"><!--{{{-->
+                      <box:post_rating>
+                      <span class="rate-box (*user_rated*)">
+                        <span class="rate-button-box rate-up (*user_rated_up*)" style="margin-left: .2em;">
+                          <a class="rate-button" href="(*rate_up_link*)" rel="nofollow" title="like">
+                          <img src="https://bayanbox.ir/download/1202944706093342115/iHeart.svg">
+                            (*up_rates*)
+                          </a>
+                        </span>
+                      </span>
+                      </box:post_rating>
+                    <a href="(*post_link*)" title="Read more" style="margin-right: 10px;"> <img src="https://bayanbox.ir/download/654109676928606858/continue.svg"/></a>
+                  </div><!--}}}-->
+              </div>
+              <div class="blackthemePostText">
+                <check:if post_image>
+                  <div class="postImage">
+                    <a href="(*post_link*)">
+                      <img src="(*post_image*)" alt="(*post_title*)"/>
+                    </a>
+                  </div>
+                </check:if>
+                (*post_summary*)
+                <div class="blackthemeClear"></div>
+                <box:post_tags>
+                    <div class="blackthemePostTag">
+                    <view:post_tags>
+                      <a href="(*tag_link*)">(*tag_name*)</a>
+                    </view:post_tags>
+                </box:post_tags>
+              </div>
+                <div class="blackthemePostFooter">
+                  <div class="blackthemeComment">
+                      <check:if post_has_send_comment>
+                        <a href="(*post_link*)#send_comment">
+                          <span dir="rtl">Write a comment</span>
+                        </a>
+                      </check:if>
+                    </div>
+                </div>
+              </div>
+              </article>
+            </view:post_list>
+          </box:post_list>
+        <!--frontPage--><!--}}}-->
+        <!--postDetail--><!--{{{-->
+        <box:post_detail>
+          <article class="blackthemePostBox">
+          <h2 class="blackthemePostBoxTitle"><a href="(*post_link*)">(*post_title*)</a></h2>
+          <div class="blackthemePostInfo">
+            <div class="blackthemePostInfoRight"><!--{{{-->
+                <div class="blackthemePostImage">
+                  <img src="(*post_author_avatar*)">
+                </div>
+              <div class="blackthemePostDetail">
+                <span class="blackthemeAuthor">(*post_author*)</span>
+                <span class="blackthemeDate"> (*post_date format="%Y/%n/%e"*)، (*post_date format="%H:%M"*)</span>
+              </div>
+            </div><!--}}}-->
+              <div class="blackthemePostInfoLeft"><!--{{{-->
+                  <box:post_rating>
+                  <span class="rate-box (*user_rated*)">
+                    <span class="rate-button-box rate-up (*user_rated_up*)" style="margin-left: .2em;">
+                      <a class="rate-button" href="(*rate_up_link*)" rel="nofollow" title="like">
+                      <img src="https://bayanbox.ir/download/1202944706093342115/iHeart.svg">
+                        (*up_rates*)
+                      </a>
+                    </span>
+                  </span>
+                  </box:post_rating>
+              </div><!--}}}-->
+          </div>
+          <div class="blackthemePostText">
+            <check:if post_image>
+              <div class="postImage">
+                <a href="(*post_link*)">
+                  <img src="(*post_image*)" alt="(*post_title*)"/>
+                </a>
+              </div>
+            </check:if>
+            (*post_full_content*)
+            <div class="blackthemeClear"></div>
+            <box:post_tags>
+                <div class="blackthemePostTag">
+                <view:post_tags>
+                  <a href="(*tag_link*)">(*tag_name*)</a>
+                </view:post_tags>
+            </box:post_tags>
+          </div>
+          </article>
+          <a name="comments"></a>
+
+          <check:if post_comment_count><!--{{{-->
+          <div class="postComment"> 
+              <div>
+                <span>
+                  <a href="(*post_link*)#comments"> تعداد نظرات ((*post_comment_count*)) </a>
+                </span>
+              </div>
+          </div> 
+          </check:if><!--}}}-->
+          <!--comment-section--><!--{{{-->
+          <check:if post_has_comments_section>
+          <section class="mimr-comment">
+            <!--comment-list--><!--{{{-->
+              <box:post_comments>
+                <view:post_comments> <!--{{{-->
+                <div class="comment-borders">
+                    <a name="comment-(*comment_id*)"></a>
+                  <!--comment-send--><!--{{{-->
+                    <div class="comment-send" style="border-top: 2px solid #f1f3f7;">
+                      <!--row-first--><!--{{{-->
+                        <div class="comment-send-first-send">
+                          <img src="(*comment_avatar*)" alt="(*comment_fullname*)">
+                          <a href="(*comment_website*)" target="_blank">
+                            (*comment_fullname*)
+                          </a>
+                        </div>
+                      <!--row-first--><!--}}}-->
+                      <!--row-second--><!--{{{-->
+                        <div class="comment-send-second">
+                          (*comment_body*)
+                        </div>
+                      <!--row-second--><!--}}}-->
+                      <!--row-third--><!--{{{-->
+                        <div class="comment-send-third">
+                          (*comment_date format="%e %B %y"*)
+                        </div>
+                      <!--row-third--><!--}}}-->
+                    </div>
+                  <!--comment-send--><!--}}}-->
+                  <!--comment-reply--><!--{{{-->
+                  <check:if comment_reply>
+                    <div class="comment-send" style="border-top: 2px solid #4c6fff;">
+                      <!--row-first--><!--{{{-->
+                        <div class="comment-send-first">
+                          پاسخ
+                        </div>
+                      <!--row-first--><!--}}}-->
+                      <!--row-second--><!--{{{-->
+                        <div class="comment-send-second">
+                          (*comment_reply*)
+                        </div>
+                      <!--row-second--><!--}}}-->
+                      <!--row-third--><!--{{{-->
+                        <div class="comment-send-third">
+                          (*comment_reply_date format="%e %B %y"*)
+                        </div>
+                      <!--row-third--><!--}}}-->
+                    </div>
+                  </check:if>
+                  <!--comment-reply--><!--}}}-->
+                </div>
+                </view:post_comments> <!--}}}-->
+              </box:post_comments>
+            <!--comment-list--><!--}}}-->
+          </section>
+          </check:if>
+          <!--comment-send--><!--{{{-->
+          <a name="send_comment"></a>
+          <check:if post_has_send_comment>
+            (*comment_add_form*)
+          </check:if>
+          <!--comment-send--><!--}}}-->
+        </box:post_detail>
+
+        <!--postDetail--><!--}}}-->
+        <!--pageDetail--><!--{{{-->
+        <box:page_detail>
+          <article class="blackthemePostBox">
+          <h2 class="blackthemePostBoxTitle"><a href="(*page_link*)">(*page_title*)</a></h2>
+          <div class="blackthemePostText">
+            (*page_content*)
+            <div class="blackthemeClear"></div>
+          </div>
+            <div class="blackthemePostFooter">
+              <div class="blackthemeComment">
+                  <check:if page_has_comments_section>
+                    <a href="(*page_link*)#comments">
+                      <span dir="rtl">Write a comment</span>
+                    </a>
+                  </check:if>
+                </div>
+            </div>
+          </article>
+        </box:page_detail>
+        <!--pageDetail--><!--}}}-->
+      <!--mainBar--><!--}}}-->
+      <!--pagination--><!--{{{-->
+      <box:pagination>
+        <div class="blackthemePagination">
+
+          <check:if page_prev>
+            <a href="(*page_prev*)" class="blackthemePrevoius"><img src="https://bayanbox.ir/download/3178006590356104542/prevPage.svg">Previous page</a>
+          </check:if>
+          <check:if page_next>
+            <a href="(*page_next*)" class="blackthemeNext" >Next page <img src="https://bayanbox.ir/download/5189261351357667237/nextPage.svg"/></a>
+          </check:if>
+           <div class="blackthemeClear"></div>
+          </div>
+      </box:pagination>
+      <!--pagination--><!--}}}-->
+    </div>
+  </div>
+      <!--sideBar --><!--{{{-->
+      <div class="blackthemeSidebar">
+        <!--sProfile--><!--{{{-->
+        <check:if blog_description>
+          <div class="blackthemeSideBox">
+            <h6>Biography<img src="https://bayanbox.ir/download/794433239232673727/biography.svg"/></h6>
+            <check:if blog_image>
+              <div class="profile">
+                <img src="(*blog_image*)" style="margin-bottom: 10px;"/>
+              </div>
+              <p></p>
+            </check:if>
+            <div style="text-align: justify;">
+              (*blog_description*)
+            </div>
+            <!--followBox--><!--{{{-->
+              <check:if follow_box>
+                <div class="bayan-follow front-image-list" style="margin-top: 50px;">
+                  (*follow_box*)
+                </div>
+              </check:if>
+            <!--followBox--><!--}}}-->
+          </div>
+        </check:if>
+        <!--sProfile--><!--}}}-->
+        <!--sPages--><!--{{{-->
+        <box:menu>
+          <div class="blackthemeSideBox">
+            <h6>Pages<img src="https://bayanbox.ir/download/3618461073242403095/dlinks.svg"/></h6>
+            <ul>
+              <view:menu>
+                <li><a href="(*menu_item_link*)">
+                    (*menu_item_title*)
+                  </a></li>
+              </view:menu>
+            </ul>
+          </div>
+        </box:menu>
+        <!--sPages--><!--}}}-->
+        <!--sPostList--><!--{{{-->
+
+        <check:if not index_page1_selected>
+        <box:recent_posts>
+          <div class="blackthemeSideBox">
+    <h6>Latest posts <img src="https://bayanbox.ir/download/8560067272317455126/Latest.svg"/></h6>
+            <ul class="blackthemePostList">
+              <view:recent_posts max=15>
+                <li>
+                  <a href="(*post_link*)" title="(*post_title*)">
+                    <h2>
+                      (*post_title*)
+                    </h2>
+                    <span>(*post_date format="%Y/%n/%e"*)</span>
+                  </a>
+                </li>
+              </view:recent_posts>
+            </ul>
+          </div>
+        </box:recent_posts>
+        </check:if>
+        <!--sPostList--><!--}}}-->
+        <!--sCategories--><!--{{{-->
+        <box:categories>
+          <div class="blackthemeSideBox">
+            <h6>Latest posts <img src="https://bayanbox.ir/download/8503324048720384768/categories.svg"/></h6>
+            <ul>
+              <view:categories>
+                <li><a href="(*category_link*)">
+                    (*category_name*)
+                  </a></li>
+              </view:categories>
+            </ul>
+          </div>
+        </box:categories>
+        <!--sCategories--><!--}}}-->
+        <!--sTags--><!--{{{-->
+        <box:tag_cloud>
+          <div class="blackthemeSideBox">
+            <h6>Tags <img src="https://bayanbox.ir/download/5120401493407547213/tags.svg"/></h6>
+            <ul>
+              <view:tag_cloud>
+                <li><a href="(*tag_link*)">
+                    (*tag_name*)
+                  </a></li>
+              </view:tag_cloud>
+            </ul>
+          </div>
+        </box:tag_cloud>
+        <!--sTags--><!--}}}-->
+        <!--sArchives--><!--{{{-->
+        <box:archive>
+          <div class="blackthemeSideBox">
+            <h6>Previous posts <img src="https://bayanbox.ir/download/9054857605266947803/archives.svg"/></h6>
+            <ul>
+              <view:archive>
+                  <li><a href="(*link_url*)">
+                    (*link_name*)
+                  </a></li>
+              </view:archive>
+            </ul>
+          </div>
+        </box:archive>
+        <!--sArchives--><!--}}}-->
+        <!--sAuthor--><!--{{{-->
+        <box:authors>
+          <div class="blackthemeSideBox">
+            <h6>Writers <img src="https://bayanbox.ir/download/1259894143291818519/author.svg"/></h6>
+            <ul>
+              <view:authors>
+                  <li><a href="(*author_link*)">
+                      (*author_name*)
+                  </a></li>
+              </view:authors>
+            </ul>
+          </div>
+        </box:authors>
+        <!--sAuthor--><!--}}}-->
+        <!--sDailyLinks--><!--{{{-->
+        <box:daily_links>
+          <div class="blackthemeSideBox">
+            <h6>Daily links <img src="https://bayanbox.ir/download/3618461073242403095/dlinks.svg"/></h6>
+            <ul>
+              <view:daily_links>
+                <li><a href="(*link_url*)" target="_blank" title="(*link_alt*)">
+                    (*link_name*)
+                  </a></li>
+              </view:daily_links>
+            </ul>
+          </div>
+        </box:daily_links>
+        <!--sDailyLinks--><!--}}}-->
+        <!--sLinks--><!--{{{-->
+        <box:links>
+          <div class="blackthemeSideBox">
+            <h6>Friends <img src="https://bayanbox.ir/download/5980700403348043108/links.svg"/></h6>
+            <ul>
+              <view:links>
+                <li><a href="(*link_url*)" target="_blank" alt="(*link_alt*)">
+                    (*link_name*)
+                  </a></li>
+              </view:links>
+            </ul>
+          </div>
+        </box:links>
+        <!--sLinks--><!--}}}-->
+        <!--ads--><!--{{{-->
+          <box:ads>
+          <div class="blackthemeSideBox">
+            <h6>Custom codes <img src="https://bayanbox.ir/download/2385174114644237325/ads.svg"/></h6>
+            <div class="blackthemeCode">
+                <view:ads>
+                  (*ad*)
+                </view:ads>
+              <div class="blackthemeClear"></div>
+            </div>
+          </div>
+          </box:ads>
+        <!--ads--><!--}}}-->
+      </div>
+      <!--sideBar --><!--}}}-->
+</div>
+<!--footer--><!--{{{-->
+<footer>
+    <div class="wrap">
+    <span>
+    قدرت گرفته از
+    <a href="https://blog.ir" target="_blank"> بلاگ</a>
+    <a href="https://bayan.ir" target="_blank"> بیان</a>
+    </span>
+    <span class="copyright">
+    طراحی از
+    <a href="http://blacktheme.ir" target="_blank"> بلک‌تم، </a>
+    تغییر و ترجمه از
+    <a href="https://asemanam.blog.ir" target="_blank">آسمانم</a>
+    </span>
+    </div>
+</footer>
+<!--footer--><!--}}}-->
+  <!-- theme designed by http://blacktheme.ir  | Weblog Themes & code for Weblog -->
+  <!-- Theme translated to bayan blog by https://asemanam.blog.ir -->
+</body>
+</html>
