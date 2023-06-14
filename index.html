@@ -241,6 +241,10 @@
                       <span dir="rtl">Write a comment</span>
                     </a>
                   </check:if>
+                  <a name="send_comment"></a>
+                  <check:if page_has_send_comment>
+                    (*comment_add_form*)
+                  </check:if>
                 </div>
             </div>
           </article>
